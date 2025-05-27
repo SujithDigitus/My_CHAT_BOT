@@ -1,0 +1,9 @@
+# Ignore Python virtual environments
+venv/
+env/
+chat_env/
+.env/
+# Ignore Python bytecode / cache
+__pycache__/
+*.pyc
+Transformers/model.safetensors 
