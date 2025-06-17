@@ -4,7 +4,7 @@ from PIL import Image
 from docx2pdf import convert
 import numpy as np
 import pythoncom
-from Gemini_RAG_Images_final import rag_pipeline_with_prompt,Get_summary
+from Gemini_RAG_Images import rag_pipeline_with_prompt,Get_summary
 from langchain.prompts import PromptTemplate
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
