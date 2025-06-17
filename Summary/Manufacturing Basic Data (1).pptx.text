@@ -1,0 +1,230 @@
+Page 1:
+Manufacturing Master Data
+Presented By: Amol Sutar
+Date: 02-May-2025
+
+
+Page 2:
+Agenda
+2
+• Manufacturing Basic Data
+•
+Item Master
+•
+Bill of Material
+•
+Work Center
+•
+Routing
+•
+Planning Parameters
+•
+Manufacturing Lead Time
+•
+Purchase Lead Time
+•
+Safety Stock
+Manufacturing
+
+
+Page 3:
+Item Master
+
+
+Page 4:
+Item Master
+4
+• An item master is a record of all the key information 
+about a particular item of inventory.
+• Contains attributes like item description, specifications, 
+size, weight, and manufacturing information
+• Cost Data
+•
+Standard Cost ( Direct & Indirect cost)
+• Inventory Information 
+•
+Current Stock Levels, minimum order quantities & lead times
+• Supplier Information
+•
+Details about supplier
+
+
+Page 5:
+Item Master
+5
+
+
+Page 6:
+Item Master
+6
+
+
+Page 7:
+Item Master Example
+7
+
+
+Page 8:
+Item Master Example
+8
+
+
+Page 9:
+Bill of Material
+
+
+Page 10:
+Bill of Material
+10
+• A Bill of Materials (BOM) is a structured list that details 
+all the raw materials, sub-assemblies, components, and 
+parts needed to manufacture a product. 
+• Comprehensive Inventory
+•
+It lists every item required, from raw materials to finished sub-
+assemblies. 
+• Quantity Specifications:
+•
+It specifies the exact quantities of each component needed. 
+• Hierarchical Structure:
+•
+BOMs can be single-level, showing only the direct 
+components, or multi-level, outlining the relationships 
+between sub-assemblies and their components. 
+
+
+Page 11:
+Bill of Material
+11
+
+
+Page 12:
+Bill of Material
+12
+
+
+Page 13:
+Work Center
+
+
+Page 14:
+Work Center
+14
+•
+A work center is a physical or logical location where work is 
+performed, often within a manufacturing or production 
+environment.
+•
+Physical or Logical:
+•
+Work centers can be a defined physical area (like a specific 
+workshop) or a logical grouping of resources (like a team of 
+employees performing a specific task). 
+•
+Resource Management:
+•
+They allow for the allocation of resources (machines, labor, 
+materials) to specific tasks or operations.
+•
+Scheduling and Routing:
+•
+Work centers are used to schedule and route operations, ensuring 
+that tasks are performed in the correct sequence and at the 
+appropriate location. 
+
+
+Page 15:
+Work Center example
+15
+
+
+Page 16:
+Work Center example
+16
+
+
+Page 17:
+Routing
+
+
+Page 18:
+Routing
+18
+• Routing refers to the sequential order of operations 
+needed to transform raw materials into finished products
+• Defining the Production Flow:
+•
+Routing maps out the step-by-step process of manufacturing, 
+from initial raw materials to the final product, ensuring that 
+each task is performed in the correct order. 
+• Resource Allocation:
+•
+Routing also helps determine which work centers, machines, 
+and labor resources are needed for each operation, facilitating 
+effective resource planning and allocation. 
+
+
+Page 19:
+Routing
+19
+EOB Domain Workshop
+
+
+Page 20:
+Routing
+20
+
+
+Page 21:
+Planning Parameters
+
+
+Page 22:
+Planning Parameters
+22
+•
+Manufacturing Lead Time
+•
+Manufacturing lead time is the total time it takes for a product to 
+move through the entire production process, from initial order 
+placement to final shipment.
+•
+It includes order preparation, Sourcing & Procurement, Production, 
+Quality control, Packaging & shipping.
+•
+Purchase Lead Time
+•
+Purchase Lead time refers to the time it takes for a company to 
+receive an order after it has been placed with a supplier.
+•
+Safety Stock / Capacity
+•
+Safety stock, also known as buffer stock, is extra inventory held to 
+mitigate the risk of stockouts due to unforeseen circumstances, 
+such as demand fluctuations or supply chain disruptions
+
+
+Page 23:
+Manufacturing Lead Time 
+23
+
+
+Page 24:
+Purchase Lead Time
+24
+EOB Domain Workshop
+
+
+Page 25:
+Safety Stock / capacity
+25
+
+
+Page 26:
+Questions ?
+Thank You
+
+
+Page 27:
+
+

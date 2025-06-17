@@ -5,6 +5,7 @@ from docx2pdf import convert
 import numpy as np
 import pythoncom
 from OpenAI_rag_chain_version_testing_CrossEncoder_Reranking import rag_pipeline_with_prompt,Get_summary
+#from Gemini_RAG import rag_pipeline_with_prompt,Get_summary
 from langchain.prompts import PromptTemplate
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_openai import ChatOpenAI

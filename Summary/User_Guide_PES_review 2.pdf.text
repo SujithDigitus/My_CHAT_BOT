@@ -1,0 +1,2028 @@
+Page 1:
+ 
+ 
+ 
+ 
+ 
+Production Executive 
+System 
+User Manual 
+ 
+ 
+ 
+
+
+Page 2:
+ 
+ 
+2 
+ 
+Contents 
+1. 
+General Information ................................................................................................................................................. 4 
+2. 
+Login Page ................................................................................................................................................................. 5 
+3. 
+3.Home Page ............................................................................................................................................................. 6 
+4. 
+Admin Module .......................................................................................................................................................... 8 
+User Maintenance ......................................................................................................................................................... 8 
+Shop Floor Maintenance ............................................................................................................................................. 10 
+Production Line Maintenance ..................................................................................................................................... 12 
+Reason code ................................................................................................................................................................ 13 
+Machine Maintenance ................................................................................................................................................ 14 
+Shift Maintenance ....................................................................................................................................................... 16 
+Quality Attribute Maintenance ................................................................................................................................... 17 
+Quality Test Plan ......................................................................................................................................................... 19 
+Work Order Detail Viewer........................................................................................................................................... 25 
+Work order Test Plan Mapping ................................................................................................................................... 27 
+Clone Recent Mapping ............................................................................................................................................ 30 
+Example Workflow .................................................................................................................................................. 30 
+Holiday ........................................................................................................................................................................ 32 
+Production Line Status ................................................................................................................................................ 33 
+Scheduling Work Bench .............................................................................................................................................. 43 
+17. Job Travel Card (JTC Report) ..................................................................................................................................... 57 
+16. Quality Assurance - Observation and Analysis .......................................................................................................... 61 
+1. Job Order Testing Procedure .................................................................................................................................. 62 
+1.1. Test Samples .................................................................................................................................................... 62 
+2. Component Tracking ............................................................................................................................................... 63 
+2.1. Recording Components .................................................................................................................................... 63 
+2.2. Additional Information ..................................................................................................................................... 64 
+3. Testing Details ......................................................................................................................................................... 64 
+3.1. Test Description ............................................................................................................................................... 64 
+3.2. Entering Test Results ........................................................................................................................................ 65 
+3.3. QA Completion and Record Management ....................................................................................................... 66 
+3.4. Actual Time Recording ..................................................................................................................................... 67 
+3.5 Report Downtime .............................................................................................................................................. 67 
+3.6 Report Production and Rejected Quantity ........................................................................................................ 69 
+
+
+Page 3:
+ 
+ 
+3 
+ 
+18. Shop Floor Viewer ..................................................................................................................................................... 70 
+Shop Floor Metrics Formulas .................................................................................................................................. 72 
+Data Display Overview ............................................................................................................................................ 73 
+ 
+ 
+ 
+
+
+Page 4:
+ 
+ 
+4 
+ 
+1. General Information 
+ 
+This document explains how to use Production Executive System (PES) on daily basis for monitoring the 
+manufacturing industry. 
+ 
+ 
+
+
+Page 5:
+ 
+ 
+5 
+ 
+2. Login Page 
+ 
+Production Executive System (PES), can be accessed using the provided URL in any web browser. Registered users 
+can log in with their credentials. The Application Admin can create new users and update existing user profiles. 
+ 
+https://pes.digitusbiz.net/ 
+ 
+ 
+ 
+
+
+Page 6:
+ 
+ 
+6 
+ 
+3. 3.Home Page 
+ 
+• 
+On successful login, user will be on home page of the application as shown below. 
+ 
+ 
+ 
+• 
+Click on the right corner so that you can view all the modules available. In addition, under Admin modules 
+sub modules can be viewed based on the logged in user’s user role as shown in below images. 
+ 
+ 
+ 
+ 
+
+
+Page 7:
+ 
+ 
+7 
+ 
+ 
+
+
+Page 8:
+ 
+ 
+8 
+ 
+4. Admin Module 
+General Information 
+In the Admin Module, users can: 
+• 
+Add (+): Create new records. Success and error messages will be displayed, and the new record will 
+appear in the view table (only for User Maintenance). 
+• 
+Create: Create new record with the mandatory entries and Save.  
+• 
+Edit (🖉): Modify existing records. Success and error messages will confirm the update, with the 
+edited record shown in the view table. 
+• 
+Delete (
+): Remove records if they are not linked to other data. A confirmation message will be 
+displayed upon successful deletion, and the view table will be updated. Errors will be shown if there 
+are issues with linked records. 
+• 
+Save: Save changes made to records. A success message will confirm that the changes have been 
+saved. If there are errors, an appropriate error message will be provided. 
+• 
+Cancel: Discard any unsaved changes and return to the previous state. No changes will be saved.  
+User Maintenance 
+In this module, you can: 
+• 
+: Creates new user. 
+• 
+Edit: Modify existing users. 
+Additionally, manage user roles, which define access limitations within the application. For example, roles 
+like Engineer and Team Leader etc., will have restricted access to Shop-Floor and Line Master, which can 
+also be added and edited in this module. Users will use their username and password to log in to the 
+application. 
+ 
+ 
+ 
+5. User role List 
+6. Shop Floor List 
+
+
+Page 9:
+ 
+ 
+9 
+ 
+ 
+ 
+• Line Master List 
+ 
+ 
+• 
+User role – Access Matrix 
+ 
+ 
+ 
+
+
+Page 10:
+ 
+ 
+10 
+ 
+ 
+Shop Floor Maintenance 
+In this module, you can: 
+• 
+Save: Create new shop floors with a unique name and code. 
+• 
+Edit: Modify existing shop floors. 
+• 
+Delete: Remove shop floors, provided they are not linked with any Line Master. 
+Each shop floor must be associated with a Line Master and must have a unique shop floor name and 
+shop floor code. 
+ 
+• 
+View Shop Floor 
+ 
+ 
+ 
+• 
+Edit Shop Floor (only on shop floor name) 
+ 
+ 
+ 
+ 
+
+
+Page 11:
+ 
+ 
+11 
+ 
+ 
+ 
+
+
+Page 12:
+ 
+ 
+12 
+ 
+Production Line Maintenance 
+In this module, you can: 
+• 
+Save: Create production lines under a shop floor. 
+• 
+Edit: Modify existing production lines. 
+• 
+Delete: Remove production lines only if no job orders are planned on that production line. 
+Additionally, you can specify details for each production line, including the item family that can be used, 
+units per hour, and the setup time required. 
+ 
+• 
+Add & View Table 
+ 
+ 
+• 
+Edit Production Line 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 13:
+ 
+ 
+13 
+ 
+Reason code  
+ 
+In this module, you can: 
+• 
+Save: Create new reason codes. 
+• 
+Edit: Modify existing reason codes. 
+• 
+Delete: Remove reason codes only if they are not in use. 
+Additionally, you can specify details for each reason code, including its type for generic use in multiple 
+modules and a description. 
+ 
+• 
+Add & View Table 
+ 
+ 
+ 
+• 
+Edit 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 14:
+ 
+ 
+14 
+ 
+Machine Maintenance 
+ 
+In this module, you can: 
+• 
+Save: Create new machines for operations. 
+• 
+Edit: Modify existing machines. 
+• 
+Delete: Remove machines only if they are not in use. 
+ 
+• 
+Create new machine & View table 
+ 
+ 
+ 
+• 
+Edit 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 15:
+ 
+ 
+15 
+ 
+Applicator Maintenance 
+ 
+In this module, you can: 
+• 
+Save: Create new applicators for an operation and specify the machine used in that operation. 
+• 
+Edit: Modify existing applicators and update their associated machine and operation details. 
+• 
+Delete: Remove applicators as needed 
+ 
+• Create new applicator & View Table 
+ 
+ 
+ 
+• Edit 
+ 
+ 
+ 
+ 
+
+
+Page 16:
+ 
+ 
+16 
+ 
+Shift Maintenance  
+ 
+In this module, you can: 
+• 
+Edit: Adjust shift hours and the shift start time. The end time of the shift is automatically calculated 
+as the start time plus the shift duration. 
+• 
+For example, if the shift hours are set to 8 and the start time is 07:00:00, the end time will be 
+15:00:00. 
+• 
+This records will be considered as the shift timing and used for scheduler and production line status 
+entry. 
+ 
+• 
+View Table 
+ 
+ 
+ 
+ 
+ 
+• Edit  
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 17:
+ 
+ 
+17 
+ 
+Quality Attribute Maintenance 
+ 
+In this module, you can: 
+• 
+Create: Add new attributes, which can be of two types: 
+o Numerical: Includes inputs for unit type (cm, m) and decimal format (number of decimal 
+places). 
+o Logical: Includes a logical format (e.g., Y/N, OK/NOK). 
+• 
+Edit: Modify existing attributes, with the restriction that the attribute type cannot be changed. 
+• 
+Delete: Remove attributes only if they are not used in any test plans. 
+ 
+ 
+• Create new attribute and View Table. 
+o Numerical Attribute 
+ 
+ 
+ 
+o Logical Attribute 
+ 
+ 
+ 
+
+
+Page 18:
+ 
+ 
+18 
+ 
+• Edit 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 19:
+ 
+ 
+19 
+ 
+Quality Test Plan 
+ 
+ 
+Test Plan Creation 
+• 
+Item Name: [Input Field for Identification] 
+o This will serve as the unique identifier for the test plan. 
+Adding Attributes 
+• 
+Numerical Attributes: 
+o Description: [Input Field] 
+▪ 
+A brief explanation in the text field. 
+o Reference Value: [Input Field] 
+▪ 
+The default or standard value for the attribute. 
+o Upper Limit: [Input Field] 
+▪ 
+The maximum allowable value. 
+o Lower Limit: [Input Field] 
+▪ 
+The minimum allowable value. 
+Example: 
+o Attribute: Length 
+▪ 
+Reference Value: 2.6cm 
+▪ 
+Upper Limit: 0.1cm 
+▪ 
+Lower Limit: 0.1cm 
+• 
+Logical Attributes: 
+o Description: [Input Field] 
+▪ 
+A brief explanation in the text field. 
+o Reference Value: [Checkbox] 
+▪ 
+If checked, the test should be conducted as a positive case. 
+▪ 
+If unchecked, the test should be conducted as a negative case. 
+Example: 
+o Attribute: Power On Status 
+▪ 
+Positive Case: [Checked] 
+▪ 
+Indicates that the item should be tested to confirm it powers on correctly. 
+Editing Attributes 
+• 
+Editing Process: 
+o Edits can be made to the attributes within the test plan. 
+o Note: Changes will not affect existing work order mapping & test results. They will only be 
+applied to future tests. 
+
+
+Page 20:
+ 
+ 
+20 
+ 
+Deleting Attributes 
+• 
+Deletion Process: 
+o Click on the 
+delete button on the end of the row.  
+o Also, Deletion of attributes follows the same process as editing. 
+o Note: Once attribute deleted, they will no longer appear in future tests. 
+ 
+• 
+Creation of new Test Plan Name 
+ 
+ 
+ 
+• 
+Clone of new Test Plan with existing test plan (Duplicate Form is a drop down will list all the existing test plan 
+name) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 21:
+ 
+ 
+21 
+ 
+Excel Upload for New Test Plan 
+• 
+Template Download: 
+o Download Template: [Button to Download Excel Template] 
+▪ 
+Provides a pre-defined Excel template for entering attributes. 
+▪ 
+The template includes fields for Attribute, Description, Reference Value, Upper Limit, 
+Lower Limit 
+Template Columns: 
+o Attribute Name (should be present as Quality Attribute. Also check for spelling) 
+o Description 
+o Reference Value (for Numerical attributes) 
+o Upper Limit (for Numerical attributes) 
+o Lower Limit (for Numerical attributes) 
+o Reference Value (for Logical attributes, with 1 or 0 where 1 considered as positive case and 
+0 considered as negative case) 
+• 
+Upload Excel File: 
+o Upload Button: [Button to Upload Excel File] 
+▪ 
+Allows users to upload the completed Excel file. 
+▪ 
+File must adhere to the downloaded template format. 
+• 
+Validation and Import: 
+o Validation: The system will check the uploaded file for correct formatting and required 
+fields. 
+o Import: If validation is successful, the attributes from the Excel file will be imported into a 
+new test plan. 
+Error Handling: 
+o Error Messages: Provide specific error messages if the file format is incorrect or required 
+fields are missing. 
+Example: 
+o Uploaded File Content: 
+For Numerical Attribute 
+▪ 
+Attribute Name: Voltage 
+▪ 
+Reference Value: 220V 
+▪ 
+Upper Limit: 0.01V 
+▪ 
+Lower Limit: 0.01V 
+ 
+ 
+ 
+
+
+Page 22:
+ 
+ 
+22 
+ 
+For Logical Attribute 
+▪ 
+Attribute Name: Colour 
+▪ 
+Reference Value: 1 (Yes)  
+ 
+ 
+ 
+▪ 
+Excel to be uploaded 
+ 
+ 
+ 
+▪ 
+Imported data from the uploaded excel 
+ 
+ 
+Add Attributes for a Test Plan 
+ 
+• 
+To add the quality attributes for new or existing test plan from the test plan screen. 
+ 
+
+
+Page 23:
+ 
+ 
+23 
+ 
+Implementation Steps 
+1. Edit Mode Activation 
+o Click on the "Edit" button to enable the addition or modification of attributes. 
+ 
+2. Adding a New Attribute 
+o Click on the "Add Row" button to add a new quality attribute. 
+o Select Attribute: Choose from the dropdown list. 
+o Description: Enter a brief explanation in the text field. 
+o Reference Value: 
+▪ 
+For numerical attributes, input the value in the text field. 
+▪ 
+For logical attributes, check or uncheck the checkbox. 
+o Upper Limit: Input the maximum allowable value in the text field (for numerical attributes). 
+o Lower Limit: Input the minimum allowable value in the text field (for numerical attributes). 
+ 
+ 
+ 
+ 
+
+
+Page 24:
+ 
+ 
+24 
+ 
+3. Deleting an Existing Attribute 
+o Locate the attribute you wish to delete. 
+o Click the delete button ( ) last to the attribute row. 
+o Confirm the deletion by a confirmation dialog. 
+ 
+ 
+4. Saving Changes 
+o After editing or adding attributes, ensure changes are saved by clicking the "Save" or 
+equivalent button. 
+5. Search Attribute 
+o In the toolbar, search attribute can be used to search the attribute from the list and perform 
+the actions for the specific attribute. 
+ 
+Example Fields in a Test Plan 
+• 
+Quality Attribute: Circumference 
+• 
+Description: Measures the circumference of the wire. 
+• 
+Reference Value: 0.5mm 
+• 
+Upper Limit: 0.01mm 
+• 
+Lower Limit: 0.01mm 
+
+
+Page 25:
+ 
+ 
+25 
+ 
+• 
+Quality Attribute: Damage 
+• 
+Description: check the package for any damage 
+• 
+Reference Value: Checked (checkbox for logical) 
+Work Order Detail Viewer 
+ 
+Overview 
+The Work Order Detail Viewer is a read-only interface designed to display comprehensive details about a 
+work order and its associated operations. This view-only screen is intended for users to review and analyis 
+information related to a specific work order without the ability to create or edit data. It provides a 
+snapshot of the work order's attributes, operations, and any job orders scheduled or created for that work 
+order. 
+Key Features 
+1. Read-Only Display 
+o 
+Purpose: Provides a detailed, non-editable view of work order information. 
+o 
+Functionality: Users can view all details related to the work order but cannot make changes. 
+2. Work Order Details 
+o 
+Information Displayed: 
+▪ 
+Work Order Number: Unique identifier for the work order. 
+▪ 
+Item Description: Description of the work order. 
+▪ 
+Item Number: item number of the work order. 
+▪ 
+Quantity: Total quantity of the work order. 
+▪ 
+Routing Lot: Routing lot assigned to the work order. 
+▪ 
+Running Time: Expected total run time for the work order. 
+▪ 
+Setup Time: Expected total setup time for the work order. 
+3. Operation Details 
+o 
+Information Displayed: 
+▪ 
+Operation Number: Unique identifier for each operation. 
+▪ 
+Description: Detailed description of each operation involved in the work order. 
+▪ 
+Mile Stone Status: status of the operation (e.g., true, false). 
+▪ 
+Standard run and setup time: run and setup times for each of the operation. 
+▪ 
+Work Centre: work centre where the operation is assigned. 
+4. Job Orders 
+o 
+Information Displayed: 
+▪ 
+Job Order Number: Unique identifier for job orders created for the work order. 
+▪ 
+Operation Description: operation description of each job order. 
+▪ 
+Job Planned Date: Planned date for each job order. 
+▪ 
+Scheduled Dates: Planned Start and end dates for each job order. 
+▪ 
+Job Quantity: Quantity for the job order. 
+
+
+Page 26:
+ 
+ 
+26 
+ 
+• 
+Work order view table  
+ 
+  
+ 
+• 
+Work order view table with its operations and job orders created. 
+ 
+ 
+  
+
+
+Page 27:
+ 
+ 
+27 
+ 
+Work order Test Plan Mapping 
+ 
+Overview 
+The Work Order Test Plan Mapper is designed to facilitate the mapping of work orders to test plans. It 
+involves selecting a work order and test plan from dropdown lists, then mapping test plan descriptions to 
+work order operations. The feature includes a status display for each description and an option to clone 
+mappings from recent work orders with the same item. 
+• 
+Initial Screen 
+ 
+Functional Components 
+1. Work Order Dropdown 
+o 
+Field Type: Dropdown list 
+o 
+Purpose: Allows users to select a specific work order. 
+o 
+Options: List of available work orders. 
+2. Test Plan Dropdown 
+o 
+Field Type: Dropdown list 
+o 
+Purpose: Allows users to select a specific test plan. 
+o 
+Options: List of available test plans. 
+3. Get Mapping Button 
+o 
+Field Type: Button 
+o 
+Purpose: Fetches and displays all test plan descriptions and the operations involved in the selected 
+work order. 
+4. Test Plan Description and Operation Mapping 
+o 
+Field Type: Dropdown list (for operations) 
+o 
+Purpose: Allows users to map each test plan description to an operation from the selected work 
+order. 
+o 
+Editable: Only operations can be selected; descriptions are read-only. 
+5. Mapping Status Display 
+
+
+Page 28:
+ 
+ 
+28 
+ 
+o 
+Field Type: Status indicator or message 
+o 
+Purpose: Shows the current status of each test plan description (e.g., whether it is correctly mapped 
+or if any mappings are missing). 
+6. Clone Mapping Option 
+o 
+Field Type: Button 
+o 
+Purpose: Allows users to clone mappings from a recent work order with the same item. 
+o 
+Action: Clicking the clone button duplicates the recent mapping setup, which can then be adjusted if 
+needed. 
+Implementation Steps 
+1. Select Work Order  
+o 
+Action: Use the dropdown lists to select the desired work order and Click the 
+ "Get 
+Mapping" button. 
+o 
+Result: If no cloning possible is there Test plan dropdown will be released, else a confirmation pop 
+up will be showed for cloning (Clone Recent Mapping) 
+ 
+2. Fetch Mappings 
+o 
+Action: Select the test plan required from the dropdown. 
+o 
+Result: The system retrieves and displays all test plan descriptions for the selected test plan and the 
+operations available for the selected work order. 
+
+
+Page 29:
+ 
+ 
+29 
+ 
+ 
+3. Map Descriptions to Operations 
+o 
+Action: For each test plan description, select an operation from the dropdown list. 
+o 
+Requirement: Each test plan description must be mapped to an operation. This mapping is 
+mandatory for scheduling. 
+ 
+4. View Mapping Status 
+o 
+Action: The status of each description is displayed above the mapping area. 
+
+
+Page 30:
+ 
+ 
+30 
+ 
+ 
+5. Save Mappings 
+o 
+Action: Ensure all mappings are complete and correct. 
+o 
+Validation: The system may provide feedback or require confirmation before allowing the work 
+order to be scheduled. 
+o 
+Status Example: "Mapped," "Not Mapped," or any other relevant status indicator. 
+ 
+Clone Recent Mapping 
+o The Clone Mapping feature allows users to quickly replicate mappings from a recent work 
+order with the same item. This functionality aids in streamlining the mapping process by 
+reusing existing setups. 
+Example Workflow 
+1. Initiate Cloning 
+o User selects the relevant work order. 
+o Clicks the "Get Mapping" button. 
+o If Cloning available, it opens a confirmation dialog  
+2. Confirmation Dialog 
+o A dialog box appears: “Item number “Item Number” of workorder “work order number” is 
+previously mapped with test plan. Do you want to clone?” 
+o User clicks OK to proceed with cloning. 
+
+
+Page 31:
+ 
+ 
+31 
+ 
+ 
+3. View and Edit Cloned Data 
+o The system populates the mapping fields with the cloned data. 
+o User reviews and, if necessary, modifies the data. 
+ 
+4. Save or Adjust. 
+ 
+
+
+Page 32:
+ 
+ 
+32 
+ 
+ 
+Holiday  
+ 
+The Holiday Viewer is a read-only interface designed to display the holidays recognized at a site, which are 
+factored into scheduling processes. Users cannot edit or delete records through this view. Key features 
+include: 
+• 
+Holiday List: Display of all holidays observed at the site. 
+• 
+Holiday Details: Dates and descriptions of each holiday. 
+ This viewer provides a comprehensive overview of site holidays to assist in accurate scheduling 
+without allowing modifications. 
+ 
+ 
+ 
+ 
+
+
+Page 33:
+ 
+ 
+33 
+ 
+Production Line Status 
+ 
+Overview 
+The Production Line Status screen provides a real-time overview of the operational status of various 
+production lines within a manufacturing facility. This feature is designed to help managers to monitor the 
+performance and current state of each production line, enabling timely decisions and efficient operations. 
+• Initial Screen 
+ 
+Key Features 
+1. Create or Edit Production Line Status 
+o Purpose: Allows users to define and update the status of each production line. 
+o Statuses: 
+▪ 
+Breakdown: Indicates that the production line is non-operational due to equipment 
+failure or other issues. 
+▪ 
+Idle: Represents a state where the production line is operational but not currently in 
+use. 
+▪ 
+Maintenance: Denotes that the production line is undergoing maintenance and is 
+temporarily out of service. 
+▪ 
+Planned: Shows upcoming scheduled activities by the scheduler. 
+2. Scheduling Integration 
+o Purpose: Prevents scheduling conflicts by considering the current status of production lines. 
+o Functionality: The system will cross-reference scheduled jobs with the production line 
+status to avoid overlapping with periods of Breakdown, Idle, or Maintenance. 
+3. Efficiency Monitoring 
+o Purpose: Tracks the performance and utilization of production lines. 
+o Functionality: Provides metrics on how often production lines are in each status, helping to 
+identify areas for improvement and optimize production scheduling. 
+
+
+Page 34:
+ 
+ 
+34 
+ 
+4. Avoid Scheduling Conflicts 
+o Purpose: Ensures that new jobs or production schedules do not overlap with existing 
+statuses. 
+o Functionality: Alerts users if a scheduled job conflicts with a production line’s current status 
+(e.g., scheduling a job during a Maintenance period). 
+ 
+Create or Edit Status 
+• 
+Creation: 
+o Fields Required: Select Production line, status type (Breakdown, Idle, Maintenance), reason, 
+enter start time, end time. 
+o Save: Confirm and save the new status. 
+• 
+Entry of new record with Production Line, PL status, Reason, Start time and End time  
+o Production Line: CUTM1 
+o PL Status: Breakdown 
+o Start Time: 20-08-2024 12:17:00 
+o End Time: 20-08-2024 15:17:00 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 35:
+ 
+ 
+35 
+ 
+ 
+• The new record got added and got split based on shit hours (S1 – 07:00:00 to 15:00:00, S2 – 
+15:00:00 to 23:00:00, S3 – 23:00:00 to 07:00:00) 
+o Record 1:  
+▪ Production Line: CUTM1 
+▪ PL Status: Breakdown 
+▪ Start Time: 20-08-2024 12:17:00 
+▪ End Time: 20-08-2024 15:00:00 
+o Record 2: 
+▪ Production Line: CUTM1 
+▪ PL Status: Breakdown 
+▪ Start Time: 20-08-2024 15:00:00 
+▪ End Time: 20-08-2024 15:17:00 
+ 
+ 
+ 
+• 
+Editing (only for the future statuses): 
+o Action: Select an existing status from the list. 
+o Fields Editable: Update status type, start time, end time, and notes. 
+o Save: Confirm and save the changes. 
+• Editing the existing record  
+o Production Line: CUTM1 
+o PL Status: Breakdown 
+o Start Time: 20-08-2024 12:17:00 
+o End Time: 20-08-2024 15:00:00 
+ 
+
+
+Page 36:
+ 
+ 
+36 
+ 
+ 
+• Editing the start time of the record 
+o Production Line: CUTM1 
+o PL Status: Breakdown 
+o Start Time: 20-08-2024 12:00:00 (from 12:17:00) 
+o End Time: 20-08-2024 15:17:00 
+ 
+ 
+ 
+• Edit record saved 
+o Production Line: CUTM1 
+o PL Status: Breakdown 
+o Start Time: 20-08-2024 12:00:00 
+o End Time: 20-08-2024 15:17:00 
+
+
+Page 37:
+ 
+ 
+37 
+ 
+ 
+ 
+• 
+Delete (only for future statuses): 
+o Action: Select the status to be deleted. Confirm it from the dialogue box and also the data 
+won’t be considered for upcoming scheduling. 
+o Selecting the record for deletion 
+▪ 
+Production Line: CUTM1 
+▪ 
+PL Status: Breakdown 
+▪ 
+Start Time: 20-08-2024 15:00:00 
+▪ 
+End Time: 20-08-2024 15:17:00 
+ 
+ 
+• 
+Confirmation before deleting the record. 
+
+
+Page 38:
+ 
+ 
+38 
+ 
+ 
+• 
+Record got deleted. 
+o Production Line: CUTM1 
+o PL Status: Breakdown 
+o Start Time: 20-08-2024 15:00:00 
+o End Time: 20-08-2024 15:17:00 
+ 
+Shift-Based Data Storage 
+o Description: Data is stored based on shifts, where each shift represents an 8-hour period. 
+o Example: If a production line status of "Maintenance" is recorded from 22/03/2024 
+07:00:00 to 23/03/2024 07:00:00 (24 hours), this period will be automatically divided into 
+three shifts: 
+▪ 
+Shift 1 (S1): 22/03/2024 07:00:00 to 22/03/2024 15:00:00 
+▪ 
+Shift 2 (S2): 22/03/2024 15:00:00 to 22/03/2024 23:00:00 
+▪ 
+Shift 3 (S3): 22/03/2024 23:00:00 to 23/03/2024 07:00:00 
+
+
+Page 39:
+ 
+ 
+39 
+ 
+ 
+Other Features 
+• 
+Filtering by Date Range: 
+• 
+Purpose: Allows users to view statuses within a specific date range, improving the ability to 
+manage and analyze data for particular periods. 
+• 
+Steps:  
+o Click on  
+ filter icon on top right. 
+o Select start and end dates, apply filter, view results. 
+ 
+ 
+ 
+ 
+
+
+Page 40:
+ 
+ 
+40 
+ 
+• 
+Selection of Start and End time 
+o Start Time: 01-08-2024 12:08:00 
+o End Time: 31-08-2024 12:08:00 
+ 
+• 
+Records available for the Selected Dates 
+o First Page 
+ 
+ 
+ 
+
+
+Page 41:
+ 
+ 
+41 
+ 
+o Last page 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 42:
+ 
+ 
+42 
+ 
+• 
+Search Across Data: 
+• 
+Purpose: Enables users to quickly locate specific statuses based on various criteria such as 
+status type, production line, or reason. 
+• 
+Steps: Enter search like production line, status, start or end time and view results. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 43:
+ 
+ 
+43 
+ 
+Scheduling Work Bench 
+Overview 
+The Scheduling Work Bench is designed to efficiently manage work orders, including splitting large 
+quantities into smaller job orders, editing schedules, and providing comprehensive views of production line 
+statuses. This tool enhances scheduling accuracy and resource management by offering real-time insights 
+and graphical representations of production schedules. 
+o Initial Page 
+ 
+o Scroll Down for Production Line Status Graphical Chart View 
+ 
+ 
+ 
+
+
+Page 44:
+ 
+ 
+44 
+ 
+o Scroll Down for PL Status Graph View 
+ 
+Key Features 
+1. Bulk Quantity Splitting: 
+• 
+Work Order Management: Start with a bulk work order, e.g., 1000 units. 
+• 
+Job Order Creation: Divide the bulk quantity into smaller, manageable job orders. For example, 
+split 1000 units into multiple job orders of 100 units each or other specified quantities. 
+• 
+Custom Splits: Configure varying quantities for each job order as needed to match production 
+requirements and line capacities. 
+2. Operation Assignment: 
+• 
+Allocate each split job order to specific production lines. 
+• 
+Assign shifts and dates for each job order based on operational availability and scheduling 
+requirements. 
+3. Validation Process: 
+• 
+Use the "Validate" button to ensure that each split job order is feasible and that resources are 
+available. 
+• 
+The system checks if the production line, shift, and date are clear of conflicts and if the schedule 
+adheres to all constraints. 
+• 
+Positive validation allows you to save the job orders; negative validation provides error messages 
+for required adjustments. 
+• 
+Save the validated job orders. 
+ 
+ 
+
+
+Page 45:
+ 
+ 
+45 
+ 
+ 
+4. Edit Schedule Functionality: 
+• 
+Editable Job Orders: If a job order has not yet started, you can edit its details, including production 
+line, shift, and date. 
+• 
+Revalidation: After making changes to the job order, revalidate the schedule to ensure all 
+adjustments are compatible and conflicts are resolved. 
+• 
+Update and Save: Apply changes and save the updated job order schedule once revalidation is 
+successful. 
+5. Error Handling and Revalidation: 
+• 
+Address any validation issues by modifying the production line, shift, or date as suggested by the 
+system. 
+• 
+Revalidate after adjustments to ensure all conditions are satisfied. 
+• 
+Continue this process until all job orders are successfully validated and saved. 
+ 6.  Production Line Status Viewing: 
+• 
+Status Screen Access: View the status of production line directly from the Scheduling Work Bench. 
+• 
+Scheduling Based on Status: Make informed scheduling decisions based on the current status of 
+production lines to avoid conflicts and optimize resource utilization. 
+• 
+All actions involved in production line status can be done from the pop up screen. 
+ 
+• 
+Click on 
+ Get Pl button to see the PL records. 
+ 
+ 
+ 
+
+
+Page 46:
+ 
+ 
+46 
+ 
+• 
+Production Line Status screen will be opened as a pop up. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 47:
+ 
+ 
+47 
+ 
+Workflow to schedule a job order 
+ 
+1. Add New Schedule Entry: 
+o Click the 
+ "Add Row" button to create a new job order entry in the scheduling 
+workbench. 
+ 
+• New Pop up screen will be opened as below. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 48:
+ 
+ 
+48 
+ 
+ 
+ 
+2. Select Work Order: 
+o Click the dropdown menu in the "Work Order" field. 
+o Choose the work order you want to schedule and click on 
+ Get Details button. This 
+action will automatically populate the mapped operations and their details from the 
+backend. 
+ 
+ 
+3. Define Job Order Details: 
+o Quantity (Qty): Enter the quantity for the job order. 
+o Production Line (PL): Select the production line where the job order will be executed. 
+o Shift: Specify the shift during which the job order will take place. 
+o Date: Set the date for each operation associated with the job order. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 49:
+ 
+ 
+49 
+ 
+• Selection of job date & Enter the load quantity 
+ 
+• Selection of production line  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 50:
+ 
+ 
+50 
+ 
+• Selection of Shift 
+ 
+4. Validate Schedule: 
+o Click the "Validate" button to check if the schedule is feasible. 
+o Planned Dates: After validation, the system will display the planned start and end dates for 
+the job order. 
+o Status Check: Review the validation status to determine if all scheduling conditions are met 
+or if there are any errors. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 51:
+ 
+ 
+51 
+ 
+Types of Validation messages while validate 
+ 
+• 
+Message to move the operation to next Shift 
+ 
+• Message to move the job for next day 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 52:
+ 
+ 
+52 
+ 
+• Message that job scheduled on Holiday 
+ 
+• Message that validation is successful. 
+ 
+5. Error Handling: 
+o If validation reveals errors: 
+▪ 
+View Error Messages: Examine the error messages provided by the system, which 
+will indicate what needs to be adjusted (e.g., production line, shift, date). 
+▪ 
+Modify Details: Adjust the production line, shift, or date based on the error 
+messages. 
+▪ 
+Revalidate: Click "Validate" again after making changes to ensure that the new 
+details resolve the issues. 
+▪ 
+Repeat: Continue adjusting and revalidating until all errors are resolved and the 
+schedule is validated successfully. 
+
+
+Page 53:
+ 
+ 
+53 
+ 
+ 
+ 
+6. Save Schedule: 
+o Once validation is complete and no errors are present, check for the planned start and 
+planned end date for all operation then save the job order schedule to finalize the entry. 
+This workflow ensures that job orders are accurately scheduled, taking into account the availability of 
+production lines, shifts, and dates, while also providing mechanisms to handle and correct errors. 
+ 
+Production Line Status Graphical View 
+• 
+Graphical Representation: Access a graphical view that displays job and production line statuses 
+based on shifts and selected dates. 
+• 
+Normal View: View a standard layout of job and production line statuses for a straightforward 
+overview. 
+• 
+Search Functionality: Utilize search features to find specific job orders, production lines, or dates 
+efficiently. 
+• 
+Initially for both the production line graph will show the data of current day and can select the 
+previous day and next day 
+ 
+
+
+Page 54:
+ 
+ 
+54 
+ 
+ 
+ 
+• 
+Also, if wanted to select the custom date click on 
+ “Select Date” and select the 
+required date. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 55:
+ 
+ 
+55 
+ 
+• 
+Selecting the custom date to view data. 
+o Selected Date: 19/08/2024 
+ 
+• 
+Data shown for the selected with all the Production Line and its status in graphical view. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 56:
+ 
+ 
+56 
+ 
+• 
+Data shown for the selected with all the Production Line and its status in table view. 
+ 
+ 
+ 
+
+
+Page 57:
+ 
+ 
+57 
+ 
+17. Job Travel Card (JTC Report) 
+ 
+The Job Travel Card (JTC) Report is a tool for generating and viewing detailed reports on completed job 
+orders. Users can filter and retrieve reports based on three different criteria, with the ability to preview 
+and download the results in PDF format. 
+ 
+Key Features 
+1. Report Criteria: 
+o 
+Site, Production Line, From Date, To Date: 
+▪ 
+Generate a report by specifying the site, production line, and a date range (from and to 
+dates). 
+o 
+Between From and To Work Orders: 
+▪ 
+Retrieve job order details for a range of work orders, from a specified start work order to an 
+end work order. 
+o 
+Between From and To Job Orders: 
+▪ 
+Obtain job order information for a range of job orders, from a specified start job order to an 
+end job order. 
+2. Report Generation: 
+o 
+Selection and Preview: 
+▪ 
+Based on the selected criteria (one of the three combinations), the system will display a 
+preview of the completed job orders report on the right side of the interface. 
+o 
+PDF Download: 
+▪ 
+Users can download the displayed report as a PDF file for offline review and record-keeping. 
+Workflow 
+• Select Report Criteria: 
+o 
+Choose one of the following options to filter the report: 
+▪ 
+Site, Production Line, From Date, To Date: Enter the site, production line, and date range. 
+▪ 
+Between From and To Work Orders: Enter the start and end work orders. 
+
+
+Page 58:
+ 
+ 
+58 
+ 
+▪ 
+Between From and To Job Orders: Enter the start and end job orders. 
+ 
+• 
+Selection on Site, production line, from date and to date. 
+ 
+• 
+Preview for the selection on Site, production line, from date and to date. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 59:
+ 
+ 
+59 
+ 
+ 
+ 
+• 
+Selection for between work orders. 
+ 
+• 
+Preview for the selection for between work orders. 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 60:
+ 
+ 
+60 
+ 
+ 
+ 
+• 
+Selection for between job orders. 
+ 
+• 
+Preview for the Selection for between job orders. 
+ 
+• Generate Report: 
+o 
+After selecting the criteria, the system will compile the relevant data. 
+o 
+The report preview will appear on the right side of the interface, reflecting the completed job orders 
+based on the selected filters. 
+• Preview and Download: 
+o 
+Review the report preview to ensure it meets the desired criteria. 
+o 
+Click the download button to save the report as a PDF file. 
+
+
+Page 61:
+ 
+ 
+61 
+ 
+ 
+ 
+ 
+Benefits 
+• 
+Comprehensive Analysis: Obtain detailed reports on completed job orders based on flexible filtering 
+options. 
+• 
+User-Friendly Interface: Easily select criteria and view reports with an intuitive interface. 
+• 
+Convenient Access: Preview reports in real-time and download them in PDF format for easy sharing and 
+record-keeping. 
+16. Quality Assurance - Observation and Analysis 
+ 
+The QA screen provides a comprehensive interface for performing Quality Assurance (QA) testing during production. 
+It includes functionalities for managing job orders, sampling procedures, component tracking, and recording test 
+results. The screen is designed to ensure that products meet quality standards throughout the production process by 
+allowing users to capture and analyse relevant data efficiently. 
+ 
+
+
+Page 62:
+ 
+ 
+62 
+ 
+ 
+1. Job Order Testing Procedure 
+1.1. Test Samples 
+For each job order, testing must be performed on specific pieces to ensure quality. The following pieces 
+should be tested: 
+1. Select Job Order: Choose the relevant job order from the dropdown menu. 
+2. Click on 
+ (Get Test Details) Button. The testing details and all the components will be 
+populated.  
+3. Select Test Pieces: Click on the test pieces that need to be tested, which include: 
+• 
+First Piece: The first piece of the production run. 
+• 
+Samples: Any one of the intermediate samples (pieces 1, 2, 3, or 4). 
+• 
+Last Piece: The last piece of the production run. 
+4.  
+Mandatory Testing 
+• 
+First Piece 
+• 
+Last Piece 
+• 
+Minimum One Sample  
+• 
+ 
+
+
+Page 63:
+ 
+ 
+63 
+ 
+ 
+2. Component Tracking 
+2.1. Recording Components 
+For each job order, document the components used in production. The component names will be 
+automatically populated from the backend. Please include the following details for each component used 
+in that specific operation: 
+• 
+Lot Number: The lot number associated with each component used. 
+• 
+Rejected Quantity: The quantity of each component that was rejected, if applicable. 
+This ensures accurate tracking and reporting of the components directly involved in the current production 
+run. 
+ 
+
+
+Page 64:
+ 
+ 
+64 
+ 
+2.2. Additional Information 
+• 
+Operator: Name or ID of the operator performing the job. 
+• 
+Machine: Machine used for production it will be a dropdown. 
+• 
+Applicator: Applicator used it will be a dropdown. 
+• 
+Sample Size: No of samples used for testing. 
+• 
+Remarks: Any additional notes or comments relevant to the production or testing. 
+ 
+3. Testing Details 
+3.1. Test Description 
+Each test to be performed should will include the following details, which will be populated automatically 
+from the test plan - work order mapping: 
+• 
+Test Description: A brief description of what is being tested. 
+• 
+Actual Value: The value observed or measured during testing (user entry). 
+• 
+Reference Value: The standard value that should be met. 
+• 
+Upper Limit: The maximum acceptable value. 
+• 
+Lower Limit: The minimum acceptable value. 
+• 
+Attribute Name: The specific attribute being tested. 
+• 
+Pass/Fail: The result of the test based on whether the Actual Value falls within the specified limits. 
+
+
+Page 65:
+ 
+ 
+65 
+ 
+ 
+3.2. Entering Test Results 
+1. Actual Value: Enter the value observed during testing. 
+2. Automatic Population: All other details, including Test Description, Reference Value, Upper Limit, 
+Lower Limit, and Attribute Name, will be automatically populated based on the mapping done in 
+the test plan - work order mapping. 
+3. Pass/Fail Determination: The Pass/Fail result will be automatically calculated based on the Actual 
+Value entered and the limits specified in the test plan. 
+ 
+By entering only the Actual Value, the system will automatically fill in the remaining details and determine 
+the Pass/Fail status, ensuring efficiency and accuracy in recording test results. 
+
+
+Page 66:
+ 
+ 
+66 
+ 
+3.3. QA Completion and Record Management 
+3.3.1. QA Completion Checkbox 
+1. QA Completion Checkbox: After all, required testing for a job order is completed, the QA 
+Completion checkbox must be checked. This action signifies that testing for the current piece is 
+finalized and ready for review. 
+2. Automatic Transition: Once the QA Completion checkbox is checked and the record should be 
+saved, then the system will automatically open next test piece in the sequence for testing. 
+ 
+3.3.2. Data Modification Rules 
+• 
+If QA is Completed and Saved: Once the QA Completion checkbox is checked and the record is 
+saved, the data becomes locked and cannot be modified. This ensures that finalized test results are 
+preserved and prevents accidental changes. 
+ 
+
+
+Page 67:
+ 
+ 
+67 
+ 
+• 
+If QA is Not Completed: If the QA Completion checkbox has not been checked, the data remains 
+editable. You can continue to make changes or updates to the test results until the QA process is 
+finalized. 
+ 
+By adhering to these procedures, the system maintains the integrity of the test results and facilitates a 
+smooth transition between test pieces, while allowing flexibility during the testing phase. 
+3.4. Actual Time Recording 
+• 
+Actual Start Time: This timestamp is recorded only when the testing of the First Piece is completed 
+and the QA Completion checkbox for the First Piece is checked. This marks the beginning of the 
+production run. 
+• 
+Actual End Time: This timestamp is recorded only when the testing of the Last Piece is completed 
+and the QA Completion checkbox for the Last Piece is checked. This marks the conclusion of the 
+production run. 
+These timestamps ensure accurate tracking of the start and end times of each job order based on the 
+completion of QA testing for the first and last pieces. 
+3.5 Report Downtime 
+From the QA screen, you can report any downtime encountered during production. Follow these steps to 
+add downtime: 
+1. Click on Report Downtime: Click the 
+ "Report Downtime" button on the QA screen. 
+2. Enter Downtime Details: 
+o Reason for Downtime: Provide a brief description of the issue or reason for the downtime. 
+o Start Time: Record the time when the downtime started. 
+o End Time: Record the time when the downtime ended (if applicable). 
+3. Save: After entering the necessary details, save the downtime report. 
+ 
+
+
+Page 68:
+ 
+ 
+68 
+ 
+ 
+The reported downtime will be added to the production line status, helping to track and manage 
+production interruptions effectively. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 69:
+ 
+ 
+69 
+ 
+3.6 Report Production and Rejected Quantity 
+From the QA screen, you can report production and rejection quantity during conclusion of production 
+when the last operation and last piece testing completed. Follow these steps to add downtime: 
+1. Click on Report Quantity: Click the "Report Downtime" button on the QA screen. 
+2. Enter Downtime Details: 
+o Production Quantity: Enter the total quantity produced inclusive of reworked. 
+o Rejection Quantity: Enter the total rejected quantity which is not reworked. 
+o Reworked Quantity: Enter the quantity that has been reworked after rejection. 
+o Reason: select the reason from the reason. 
+3. Submit: After entering the necessary details, submit the quantity. 
+ 
+The reported quantities will be added as the job order production and rejected quantities. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+Page 70:
+ 
+ 
+70 
+ 
+18. Shop Floor Viewer 
+ 
+The Shop Floor Viewer provides a comprehensive overview of the production status and performance 
+across one or multiple shop floors. This feature allows you to monitor and analyze various metrics to 
+ensure efficient production management. Here’s how you can use the Shop Floor Viewer: 
+ 
+Features 
+1. Completed Status: View the status of shop floors that are currently running or have completed 
+production. 
+2. OEE (Overall Equipment Effectiveness): Check the OEE metric to assess the overall efficiency of the 
+equipment, including availability, performance, and quality. 
+3. Availability: Monitor the availability of shop floor equipment, showing the proportion of time the 
+equipment is operational compared to the total available time. 
+4. Performance: Evaluate the performance of the shop floor, including the speed and output rates 
+relative to expected targets. 
+5. Quality: Review the quality of production, including metrics such as defect rates and compliance 
+with quality standards. 
+6. Utilized: Check the utilization of shop floor resources to determine how effectively they are being 
+used. 
+7. Planned Production: Compare the planned production targets with the actual performance to 
+assess if production goals are being met. 
+8. Actual Production: View the actual production quantities achieved on the shop floor. 
+9. Job Order Quantity Reporting: Report and review the quantities for specific job orders, including 
+any adjustments or updates. 
+How to Use 
+
+
+Page 71:
+ 
+ 
+71 
+ 
+1. Select Shop Floors: Choose one or multiple shop floors you want to view from the available 
+options. 
+2. Select Date: Specify the date or date range for which you want to view the production data. 
+3. View Metrics: Access the metrics including OEE, availability, performance, quality, utilized, planned 
+production, actual production, and job order quantities. 
+4. Analyze Data: Use the displayed data to analyze production performance, identify areas for 
+improvement, and make informed decisions. 
+• 
+Click on filter button on top right of the screen 
+ 
+• 
+Select the shop floor and date , then click on apply. Data will be displayed. 
+ 
+By leveraging the Shop Floor Viewer, you can gain valuable insights into production efficiency and 
+effectively manage your shop floors. 
+
+
+Page 72:
+ 
+ 
+72 
+ 
+Shop Floor Metrics Formulas 
+Here are the formulas used to calculate various shop floor metrics: 
+1. Availability 
+Availability measures the proportion of time the equipment or shop floor was available for production 
+compared to the total planned time. 
+ 
+Availability = (Planned Start Time + Planned End Time / Actual Start Time + Actual End Time) × 100 
+Note: The Actual Start Time, Actual End Time will be captured while reporting of test type of first piece and 
+last piece. Planned Start Time, and Planned End Time are calculated while scheduling the job. 
+2. Performance 
+Performance measures how well the job performed relative to the planned production quantity. 
+Performance = (Job Load Quantity / Job Production Quantity) × 100 
+Note: Job Production Quantity refers to the number of units produced, while Job Load Quantity is the 
+number of units planned to be produced. 
+3. Quality 
+Quality measures the proportion of good units produced compared to the total production quantity. 
+Good Quantity = Job Production Quantity − Rejected Quantity 
+Quality = (Good Quantity / Job Production Quantity) × 100 
+Note: Rejected Quantity is the number of units that failed quality control. 
+4. OEE (Overall Equipment Effectiveness) 
+OEE combines performance, quality, and availability into a single metric to measure overall production 
+effectiveness. 
+OEE = (Performance / 100) × (Quality / 100) × (Availability / 100) × 100 
+5. Utilized 
+Utilized measures whether a shop floor is being used for production based on whether a job has started 
+running. 
+• 
+If a job started running on the shop floor, it is considered a utilized production line (PL). 
+
+
+Page 73:
+ 
+ 
+73 
+ 
+6. Planned Production 
+Planned Production is the total quantity of production planned for the shop floor. 
+• 
+Planned Production: Total quantity planned for production in that shop floor. 
+7. Actual Production 
+Actual Production is the quantity of units that were actually completed on the shop floor. 
+• 
+Actual Production: Total quantity of units completed in that shop floor. 
+By using these formulas, we are effectively monitor and analyzing the performance of the shop floors. 
+ 
+Data Display Overview 
+The selected shop floor data will be presented based on the different shifts: S1, S2, and S3. The data will be 
+organized and displayed in a table format, providing detailed insights into the work orders and job orders 
+for each shift. Here’s how to view and interpret the data: 
+1. Data Display 
+The data shown will include the following details: 
+• 
+Work Order: The identifier or reference for the work order. 
+• 
+Job Order: The specific job order associated with the work order. 
+• 
+Job Performance: Metrics or statistics related to the performance of the job. 
+• 
+Job Status: The current status of the job (e.g., Running, Completed, Pending). 
+• 
+Job Planned Start Time: The scheduled start time for the job. 
+• 
+Job Planned End Time: The scheduled end time for the job. 
+• 
+Job Actual Start Time: The actual time when the job started. 
+• 
+Job Actual End Time: The actual time when the job ended. 
+• 
+Setup Time: The time taken to set up for the job. 
+• 
+Run Time: The time taken to actually run the job. 
+2. Viewing Data Across Shifts 
+• 
+Shift Tabs: The data can be viewed for different shifts by switching between the shift tabs: 
+o Shift S1: Data for the first shift. 
+o Shift S2: Data for the second shift. 
+o Shift S3: Data for the third shift. 
+To view data for a specific shift, click on the corresponding shift tab. The table will update to display the 
+relevant data for that shift. 
+
+
+Page 74:
+ 
+ 
+74 
+ 
+3. Table Layout 
+The table will be organized to show the following columns: 
+• 
+Overall View after selection of Shop floor and Date. 
+ 
+• 
+Job Details display based on Job order’s 
+ (i) button clicked 
+ 
+ 
+By using the shift tabs and reviewing the data table, you can effectively monitor and analyze job 
+performance and production metrics across different shifts. 
+ 
+
+
