@@ -1,9 +1,64 @@
-# Ignore Python virtual environments
-venv/
-env/
-chat_env/
-.env/
-# Ignore Python bytecode / cache
+# Python
 __pycache__/
-*.pyc
-Transformers/model.safetensors 
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables - CRITICAL FOR SECURITY
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys and sensitive files
+*api_key*
+*secret*
+*token*
+credentials.*
+config.json
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+extracted_images/
+archive_folder/
+work_folder/
+Summary/
+VectorDB/
+Transformers/
